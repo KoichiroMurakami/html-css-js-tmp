@@ -1,1 +1,15 @@
-/.vscode
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+    /* 縦に並べる https://developer.mozilla.org/ja/docs/Web/CSS/flex-direction */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
